@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Compatibility</key>
+	<string>1.4</string>
+	<key>AutoRotatePages</key>
+	<string>None</string>
+	<key>AutoFilterColorImages</key>
+	<true/>
+	<key>AutoFilterGrayImages</key>
+	<true/>
+	<key>ColorImageDownsampleType</key>
+	<string>Bicubic</string>
+	<key>ColorImageResolution</key>
+	<string>300</string>
+	<key>EmbedAllFonts</key>
+	<true/>
+	<key>GrayImageDownsampleType</key>
+	<string>Bicubic</string>
+	<key>GrayImageResolution</key>
+	<string>300</string>
+	<key>MonoImageDownsampleType</key>
+	<string>Subsample</string>
+	<key>MonoImageResolution</key>
+	<string>1200</string>
+	<key>SubsetFonts</key>
+	<true/>
+	<key>DetectDuplicateImages</key>
+	<true/>
+	<key>FastWebView</key>
+	<true/>
+	<key>CompressPages</key>
+	<true/>
+	<key>ColorSpace</key>
+	<string>Not Change</string>
+	<key>PDFSettings</key>
+	<string>prepress</string>
+	<key>WhenDone</key>
+	<string>Notification</string>
+	<key>ShowInFinder</key>
+	<true/>
+	<key>PlaySound</key>
+	<false/>
+	<key>QuitApp</key>
+	<false/>
+</dict>
+</plist>

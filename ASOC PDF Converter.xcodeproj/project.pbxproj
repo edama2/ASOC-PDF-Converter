@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E2C4492263A0D2F00C2499A /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E2C4491263A0D2F00C2499A /* UserDefaults.plist */; };
 		5E5C75082639CB00009C8588 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5C75072639CB00009C8588 /* AppleScriptObjC.framework */; };
 		5E5C750B2639CB00009C8588 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C750A2639CB00009C8588 /* AppDelegate.applescript */; };
 		5E5C750D2639CB26009C8588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C750C2639CB26009C8588 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E2C4491263A0D2F00C2499A /* UserDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserDefaults.plist; sourceTree = "<group>"; };
 		5E5C75042639CB00009C8588 /* ASOC PDF Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASOC PDF Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5C75072639CB00009C8588 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		5E5C750A2639CB00009C8588 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				5E5C750E2639CB26009C8588 /* MainMenu.xib */,
 				5E5C75112639CB26009C8588 /* Info.plist */,
 				5E5C75122639CB26009C8588 /* main.m */,
+				5E2C4491263A0D2F00C2499A /* UserDefaults.plist */,
 			);
 			path = "ASOC PDF Converter";
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5C750D2639CB26009C8588 /* Assets.xcassets in Resources */,
+				5E2C4492263A0D2F00C2499A /* UserDefaults.plist in Resources */,
 				5E5C75102639CB26009C8588 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +219,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OSACOMPILE_EXECUTE_ONLY = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -266,6 +271,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OSACOMPILE_EXECUTE_ONLY = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -281,6 +287,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				OSACOMPILE_EXECUTE_ONLY = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yukikaze.ASOC-PDF-Converter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -297,6 +304,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				OSACOMPILE_EXECUTE_ONLY = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yukikaze.ASOC-PDF-Converter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
