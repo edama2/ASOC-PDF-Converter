@@ -1,5 +1,4 @@
 # ASOC PDF Converter
 
 GhostScriptからPDFを再圧縮するためのGUIラッパー
-
-事前にhomebrewからGhostScriptをインストールしていないと使えない
+事前にhomebrewからGhostScriptをインストールが必要です
